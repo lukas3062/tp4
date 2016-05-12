@@ -1,0 +1,261 @@
+/*header*/
+header{
+  width: 100%;
+  height: 200px;
+  background: black;
+  margin: auto;
+}
+.der i{
+
+  float: right;
+  margin: 10px 250px 0 0;
+}
+.der p{
+  color: white;
+  margin-top: 130px;
+  margin-left: 20px;
+  font-size: 50px;
+}
+.der{
+  background: #4EC1FF;
+  height: 200px;
+  width: 70%;
+float: right;
+}
+.der a{
+  color: white;
+}
+.huge{
+  float: left;
+  background: none;
+  width: 60px;
+  height: 40px;
+  border: 2px solid white;
+  margin: 10px 0 0 10px;
+  color: white;
+}
+section{
+  width: 100%;
+  height: 600px;
+}
+.container{
+  max-width: 800px;
+  margin: auto;
+}
+.cubo{
+  width: 700px;
+  height: 300px;
+  margin: 30px 0 30px 0;
+  position: relative;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#477ec6+0,828c95+36,03ba03+100 */
+  background: #477ec6; /* Old browsers */
+  background: -moz-linear-gradient(top,  #477ec6 0%, #828c95 36%, #03ba03 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #477ec6 0%,#828c95 36%,#03ba03 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #477ec6 0%,#828c95 36%,#03ba03 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#477ec6', endColorstr='#03ba03',GradientType=0 ); /* IE6-9 */
+
+}
+.izq{
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+}
+.izq h3{
+  font-size: 30px;
+  margin: 10px 0 10px 0;
+}
+.derecha{
+  display: inline-block;
+}
+.flecha{
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 20px;
+}
+.flecha2{
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 600px;
+}
+.iconos{
+font-size: 30px;
+  color: white;
+  position: absolute;
+  margin: 10px 0 0 15px;
+}
+.ico{
+  width: 500px;
+  height: 50px;
+  display: inline-block;
+}
+.ico ul{
+  display: inline-block;
+  float: right;
+}
+.ico li{
+  margin: 2px;
+  display: inline-block;
+}
+.ico h3{
+  display: inline-block;
+}
+.fondo{
+  background: #A0A0A0;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: relative;
+  border: 1px solid #A0A0A0;
+}
+.iconos2{
+position: absolute;
+font-size: 20px;
+margin: 8px 0 0 8px;
+}
+
+.fondo:hover{
+  background: #00BCFF;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: relative;
+  border: 1px solid #00BCFF;
+}
+.derecha h4{
+  font-size: 20px;
+  margin: 10px 0;
+  color: #00BCFF;
+}
+.derecha{
+  margin-left: 20px;
+}
+/*transform: scale()
+transition:(1.2)*/
+
+/*footer*/
+.divfoot{
+  background: #3A3A3A;
+  width: 100%;
+  height: 100px;
+}
+.divfoot p{
+  margin-top: 20px;
+  color:white;
+  font-size: 15px;
+  display: inline-block;
+  float: left;
+}
+.container ul li{
+  display: inline-block;
+  margin-left: 10px;
+}
+.ull{
+  float: right;
+  margin-top: 20px;
+}
+.mover{
+  display: inline-block;
+  margin-left: 300px;
+  background: none;
+  width: 80px;
+  height: 60px;
+  border: 2px solid white;
+  margin: 6px 0 0 10px;
+  color: white;
+  margin-left: 100px;
+}
+.foot{
+  width: 100%;
+  height: 40px;
+  background: #282828;
+}
+.lii{
+  display: inline-block;
+  color: #767575;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.lii:hover{
+  color:white;
+}
+@media screen and (max-width:600px){
+header a{
+  display: none !important;
+}
+header{
+  text-align: center;
+}
+section{
+  height: 420px;
+}
+.der p{
+  margin-top: 10px;
+}
+.huge{
+display: inline-block;
+  float: none;
+  margin: 10% 0 0 10%;
+}
+.der{
+  width: 100%;
+}
+.cubo div{
+  display: none !important;
+}
+.cubo{
+  width: 97%;
+  height: 150px;
+  margin: auto;
+  margin-top: 10px;
+}
+.derecha{
+  display: none !important;
+}
+.mover{
+  margin-left: 36%;
+  margin-bottom: 10px;
+}
+.lorem{
+  width: 100%;
+  text-align: center;
+}
+.ico{
+width: 100%;
+}
+footer, .ull{
+  display: none !important;
+}
+.pclase{
+  margin-left: 10px;
+  width: 100%;
+}
+.divfoot .container{
+  width: 250px;
+  margin: auto;
+}
+.ico ul{
+  display: block;
+  float: left;
+  margin-top:40%;
+  margin-left: 10%;
+
+}
+.ico h3{
+  display: block;
+  text-align: center;
+}
+.divfoot{
+  height: 130px;
+}
+.izq{
+  max-width: 100%;
+}
+}
